@@ -1,0 +1,79 @@
+p{
+    font-family: 'Fira sans', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 0;
+}
+.p{
+    color: rgb(173, 126, 38);
+    margin-bottom: 50px;
+}
+.g{
+    color: rgb(38, 58, 173);
+}
+.lmb{
+    color: rgb(184, 29, 29);
+}
+button{
+    padding: 10px 100px;
+    font-family: 'Fira sans', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    color: goldenrod;
+    transition: background-color 0.1s, color 0.1s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgba(218, 165, 32);
+    color: rgba(0, 0, 0);
+}
+.square{
+    border: 1px solid black;
+    margin-left: -1px;
+    width: 40px;
+    height: 40px;
+}
+.square:hover{
+    background-color: cyan;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1px;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+}
+.main-div{
+    display: flex;
+    gap: 200px;
+}
+.dimensions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 20px;
+}
+.current{
+    font-size: 20px;
+}
+.dimensions input{
+    outline: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: rgba(218, 165, 32);
+    box-shadow: 1px 1px 30px 1px black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Fira sans;
+    font-weight: bold;
+}
